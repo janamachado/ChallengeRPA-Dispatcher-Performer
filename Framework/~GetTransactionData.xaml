@@ -121,6 +121,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="Extrai as atividades se acordo com a escolha do usuário que está armazenada na variável SecaoUserChoise" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="812.8,2557.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
