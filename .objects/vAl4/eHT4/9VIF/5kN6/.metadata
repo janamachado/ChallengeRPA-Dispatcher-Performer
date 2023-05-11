@@ -1,0 +1,14 @@
+﻿{
+  "Id": "5kN6g3IaFE6_NaNr4hJOEw",
+  "Reference": "ZihaBf0jQkaTmoHlDbtppw/5kN6g3IaFE6_NaNr4hJOEw",
+  "ParentRef": "ZihaBf0jQkaTmoHlDbtppw/9VIF3lOiu0mcScwrWCUsUg",
+  "Name": "Click Secao User",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-05-08T17:02:11.2262742Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-08T17:02:11.2262742Z"
+}

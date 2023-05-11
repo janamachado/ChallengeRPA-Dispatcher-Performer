@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8-qcR-78E0aLsirk0YuLzg" Reference="ZihaBf0jQkaTmoHlDbtppw/5kN6g3IaFE6_NaNr4hJOEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://cnae.ibge.gov.br/?view=estrutura" DesignTimeRectangle="409, 560, 9, 18" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'A'" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='tbEstrutura' tag='TABLE' /&gt;&lt;webctrl tag='A' href='/?view=secao&amp;amp;tipo=cnae&amp;amp;versaosubclasse=10&amp;amp;versaoclasse=7&amp;amp;secao={0}' idx='*' /&gt;&quot;, SecaoUserChoise)]" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl id='tbEstrutura' tag='TABLE' /&gt;&lt;webctrl tag='A' href='/?view=secao&amp;amp;tipo=cnae&amp;amp;versaosubclasse=10&amp;amp;versaoclasse=7&amp;amp;secao={0}' type='' class='' check:text='A' /&gt;&quot;, SecaoUserChoise)]" Guid="740e83fd-cf6a-4acb-b7a0-dd59e8c1c3e5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA0AAAAWCAYAAAAb+hYkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABQSURBVDhPY/j48eN/UvGoJijGqknXIh+OsclTRxOyYlwaB0gTNkXYxLBqwoaR1VGmCZskLrkB0EQKBmuaOmsL3DRcuLN/DaomUjG9NH38DwBsaNMDnvSHXAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IBGE | Concla | Busca online' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArgument="01..03" CvType="Text" DesignTimeRectangle="489, 560, 48, 18" ElementType="Text" FriendlyName="'01 .. 03'" FullSelectorArgument="&lt;webctrl id='tbEstrutura' tag='TABLE' /&gt;&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;01 .. 03&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbEstrutura' tag='TABLE' /&gt;&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;01 .. 03&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' type='' tag='A' class='' check:innerText='01 .. 03' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAWCAYAAACPHL/WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADXSURBVFhH7Y/LDQMhDETTUO5pKsopzaSLlVJD+qGCjTgYDYPN9wIrDu9g3mBrbs6580rsQrOzC83O9QvdH68AO6Qm00PuPjorExWq+cA5zfeCe3m/5gTcEQpxgGctx24E3mnN2h98Swqh5Dec2Y2i7Svd0HxzIcuNou2zbsi75poK1boetH3WDXnX3JKFBM0vU6jkhaSQBHhmcq4Hvlea8U1mTyjkwU9aGCl5D2dKf8QjLd4TFfLkwkhPpuWPlSv5pNDqhELP9ydqvxrH9xcXugq70Ny48w9y9VYxxXMAiwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-4" Y="-8" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5690c5ba24c0abe2a7f802eb61a414c2.png" xmlns="">0DX_c1f8sLEiQpWvJdBsUHg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="A" Name="SecaoUserChoise" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

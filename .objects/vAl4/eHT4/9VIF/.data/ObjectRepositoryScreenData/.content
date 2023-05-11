@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="u1AjZrjYD02ovf4fypEC4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADxSURBVDhPpdIxDgFBGAVgV1ChoFZxBJXCDUhEIdlSJSq1S3AJIiJZhUI0m+gdQL2ixDLe2+zIy2QKG5t8G/v/5s3s7BSMMX/xFvPwFvP4XrP5cQ/G4wRreX7DBYJvAB6qWUMH0hWa8JCaFWvA2GnSDVpQl5pKNCBymmeYwhb6wJVon6I0AD9qWYEz7mAIZUiA9Tu0YQFL0bUBPVhJg3/swBNsQBEYHAInYr1iA9zlE5c8gA1MgK+k/QNf3QbYpbq4edxEO6MaaUDsNImfrQG+zXtBSQMC4MHQc8CDwwOkA62Qg3mlAbz9w1vMw1v8nSl8AF/uttd0vyW9AAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='IBGE | Concla | Busca online' /&gt;" Title="IBGE | Concla | Busca online" Url="https://cnae.ibge.gov.br/?view=estrutura">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0b80bb25e72b08f3dd28656ea54be87.jpg" xmlns="">0Vg2HjTRFDUCTnfZKP_83ww</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
