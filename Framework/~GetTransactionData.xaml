@@ -11,7 +11,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1348,9573.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1348,9627.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetTransactionData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -133,6 +133,7 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
       <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -140,7 +141,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Extrai as atividades se acordo com a escolha do usuário que está armazenada na variável SecaoUserChoise" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="1227.2,9508.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Extrai as atividades se acordo com a escolha do usuário que está armazenada na variável SecaoUserChoise" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="1227.2,9562.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="CnaeExtractDataTable" />
       <Variable x:TypeArguments="s:String[]" Name="listDivisao" />
@@ -160,20 +161,20 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Essa atividade tem a responsabilidade de abrir o Microsoft Edge no site CNAE IBGE, perguntar ao usuário quais seções, armazenar a escolha o usuário em uma variável, navegar pelo site CNAE IBGE, filtrar e extrair as informações de acordo com a escolha do usuário." DisplayName="Extração das atividades CNAE" sap:VirtualizedContainerService.HintSize="1164.8,9365.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <Sequence sap2010:Annotation.AnnotationText="Essa atividade tem a responsabilidade de abrir o Microsoft Edge no site CNAE IBGE, perguntar ao usuário quais seções, armazenar a escolha o usuário em uma variável, navegar pelo site CNAE IBGE, filtrar e extrair as informações de acordo com a escolha do usuário." DisplayName="Extração das atividades CNAE" sap:VirtualizedContainerService.HintSize="1164.8,9419.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="1102.4,9209.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="9d3f7090-c960-4549-ad61-f525a31d60ff" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="1102.4,9263.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="9d3f7090-c960-4549-ad61-f525a31d60ff" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="1068.8,8992.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="1068.8,9046.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -810,7 +811,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:ForEach>
               </Sequence>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="1006.4,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Você deseja extrair outra Seção?" Title="Continuar Extração">
+              <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="1006.4,295.2" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Você deseja extrair outra Seção?" OptionsString="Sim;Não" Title="Continuar Extração">
                 <ui:InputDialog.Result>
                   <OutArgument x:TypeArguments="x:String">[FinalChoise]</OutArgument>
                 </ui:InputDialog.Result>
