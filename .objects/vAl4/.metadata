@@ -1,0 +1,14 @@
+﻿{
+  "Id": "vAl4SxEsvUi3hWYg902iYQ",
+  "Reference": "ZihaBf0jQkaTmoHlDbtppw/vAl4SxEsvUi3hWYg902iYQ",
+  "Name": "NovoAplicativo",
+  "Type": "App",
+  "Created": "2023-05-08T17:01:53.7469613Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-08T17:01:59.6231815Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
