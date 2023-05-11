@@ -11,7 +11,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1348,9573.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1348,9166.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetTransactionData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -140,7 +140,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Extrai as atividades se acordo com a escolha do usuário que está armazenada na variável SecaoUserChoise" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="1227.2,9508.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Extrai as atividades se acordo com a escolha do usuário que está armazenada na variável SecaoUserChoise" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="1227.2,9101.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="CnaeExtractDataTable" />
       <Variable x:TypeArguments="s:String[]" Name="listDivisao" />
@@ -149,10 +149,9 @@
       <Variable x:TypeArguments="s:String[]" Name="listGrupo" />
       <Variable x:TypeArguments="x:String" Name="strCodigoGrupo" />
       <Variable x:TypeArguments="x:String" Name="strDescricaoSecao" />
-      <Variable x:TypeArguments="x:String" Name="FinalChoise" />
       <Variable x:TypeArguments="x:String" Name="strCodigoSecaoUser" />
       <Variable x:TypeArguments="x:String" Name="strCodigoDivisao" />
-      <Variable x:TypeArguments="sd:DataTable" Name="PlanilhaCompleta" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dtPlanilhaCompleta" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -160,20 +159,20 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Essa atividade tem a responsabilidade de abrir o Microsoft Edge no site CNAE IBGE, perguntar ao usuário quais seções, armazenar a escolha o usuário em uma variável, navegar pelo site CNAE IBGE, filtrar e extrair as informações de acordo com a escolha do usuário." DisplayName="Extração das atividades CNAE" sap:VirtualizedContainerService.HintSize="1164.8,9365.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <Sequence sap2010:Annotation.AnnotationText="Essa atividade tem a responsabilidade de abrir o Microsoft Edge no site CNAE IBGE, perguntar ao usuário quais seções, armazenar a escolha o usuário em uma variável, navegar pelo site CNAE IBGE, filtrar e extrair as informações de acordo com a escolha do usuário." DisplayName="Extração das atividades CNAE" sap:VirtualizedContainerService.HintSize="1164.8,8958.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="1102.4,9209.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="9d3f7090-c960-4549-ad61-f525a31d60ff" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="1102.4,8802.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="9d3f7090-c960-4549-ad61-f525a31d60ff" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="1068.8,8992.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="1068.8,8585.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -185,7 +184,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:BuildDataTable DataTable="[PlanilhaCompleta]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="387.2,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Seção&quot; msdata:Caption=&quot;&quot; default=&quot;strCodigoSecaoUser&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Seção&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; default=&quot;strDescricaoSecao&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Divisão&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Divisão&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Grupo&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; default=&quot;strCodigoGrupo&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Grupo&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Classe&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Classe&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Subclasse&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Subclasse&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+                <ui:BuildDataTable DataTable="[dtPlanilhaCompleta]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="387.2,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Seção&quot; msdata:Caption=&quot;&quot; default=&quot;strCodigoSecaoUser&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Seção&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; default=&quot;strDescricaoSecao&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Divisão&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Divisão&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Grupo&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; default=&quot;strCodigoGrupo&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Grupo&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Classe&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Classe&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Código_x0020_Subclasse&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Subclasse&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
               </Sequence>
               <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="1006.4,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Escolha uma Seção para extrair os dados" Title="Indique uma seção">
                 <ui:InputDialog.Result>
@@ -715,8 +714,8 @@
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{&#xD;&#xA;strCodigoSecaoUser, &#xD;&#xA;strDescricaoSecao,&#xD;&#xA;strCodigoDivisao,&#xD;&#xA;strDescricaoDivisao,&#xD;&#xA;strCodigoGrupo,&#xD;&#xA;strDescricaoGrupo,&#xD;&#xA;strCodigoClasse,&#xD;&#xA;strDescricaoClasse,&#xD;&#xA;strCodigoSubclasse,&#xD;&#xA;strDescricaoSubclasse&#xD;&#xA;}]" DataTable="[PlanilhaCompleta]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="387.2,188" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
-                                                        <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[PlanilhaCompleta]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteRange_9" SheetName="DadosCNAE" WorkbookPath="cnae_atividades.xlsx" />
+                                                        <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{&#xD;&#xA;strCodigoSecaoUser, &#xD;&#xA;strDescricaoSecao,&#xD;&#xA;strCodigoDivisao,&#xD;&#xA;strDescricaoDivisao,&#xD;&#xA;strCodigoGrupo,&#xD;&#xA;strDescricaoGrupo,&#xD;&#xA;strCodigoClasse,&#xD;&#xA;strDescricaoClasse,&#xD;&#xA;strCodigoSubclasse,&#xD;&#xA;strDescricaoSubclasse&#xD;&#xA;}]" DataTable="[dtPlanilhaCompleta]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="387.2,188" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                                                        <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dtPlanilhaCompleta]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteRange_9" SheetName="DadosCNAE" WorkbookPath="cnae_atividades.xlsx" />
                                                       </Sequence>
                                                     </Sequence>
                                                   </ActivityAction>
@@ -810,12 +809,6 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:ForEach>
               </Sequence>
-              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="1006.4,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Você deseja extrair outra Seção?" Title="Continuar Extração">
-                <ui:InputDialog.Result>
-                  <OutArgument x:TypeArguments="x:String">[FinalChoise]</OutArgument>
-                </ui:InputDialog.Result>
-              </ui:InputDialog>
-              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="1006.4,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[FinalChoise]" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
