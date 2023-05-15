@@ -19186,9 +19186,9 @@
     "restore": {
       "projectUniqueName": "CnaeIgbeProcesses",
       "projectName": "CnaeIgbeProcesses",
-      "projectPath": "D:\\Documents\\Jana2023\\CnaeProcess\\CnaeIgbeProcesses\\.local",
+      "projectPath": "D:\\Documents\\Jana2023\\RPA\\CnaeIgbeProcesses2.0\\.local",
       "packagesPath": "C:\\Users\\Jana\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Jana2023\\CnaeProcess\\CnaeIgbeProcesses\\.local"
+      "outputPath": "D:\\Documents\\Jana2023\\RPA\\CnaeIgbeProcesses2.0\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {

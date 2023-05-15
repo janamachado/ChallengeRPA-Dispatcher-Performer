@@ -70,24 +70,22 @@
       "Path": "Framework/GetTransactionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "dtCnaeExtractDataTable&Sequence_1",
+        "strCodigoSubclasse&Sequence_1",
         "strDescricaoDivisao&Sequence_1",
         "strDescricaoGrupo&Sequence_1",
         "strDescricaoClasse&Sequence_1",
-        "cod_Subclasse&Sequence_1",
         "strDescricaoSubclasse&Sequence_1",
         "arrSubclasse&Sequence_1",
         "arrGrupo&Sequence_1",
         "arrClasse&Sequence_1",
         "arrDivisao&Sequence_1",
-        "CnaeExtractDataTable&Sequence_1",
         "strCodigoClasse&Sequence_1",
         "strCodigoGrupo&Sequence_1",
         "strDescricaoSecao&Sequence_1",
         "strCodigoSecaoUser&Sequence_1",
         "strCodigoDivisao&Sequence_1",
-        "dtPlanilhaCompleta&Sequence_1",
-        "strCodigoSubclasse&Sequence_35",
-        "pyScript&Sequence_49"
+        "dtPlanilhaCompleta&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
         "in_TransactionNumber",
@@ -215,6 +213,46 @@
         "out_TransactionField2",
         "out_TransactionID",
         "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ExtraçãoAtividadesCNAE.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtPlanilhaParaQueue&Sequence_36"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "dtPlanilhaCompleta",
+        "strCodigoSecaoUser",
+        "strDescricaoSecao",
+        "dtCnaeExtractDataTable",
+        "arrDivisao",
+        "strCodigoDivisao",
+        "strDescricaoDivisao",
+        "arrGrupo",
+        "strCodigoGrupo",
+        "strDescricaoGrupo",
+        "arrClasse",
+        "strCodigoClasse",
+        "strDescricaoClasse",
+        "arrSubclasse",
+        "strDescricaoSubclasse",
+        "strCodigoSubclasse"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/TratamentoPython.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pyScript&Sequence_49"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

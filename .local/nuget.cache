@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZrIphe+rwBrc+CoZnoMncoYldJhYfec3/aV3OUOrz7Aa6MHDCu8mcjNV8y9CnM03jV0tBHsz5IWoCQiZa68xLA==",
+  "dgSpecHash": "k89AvbOMaWPcg0QQgsMHZ4sZJbjzEKcRuL+tW5zkgYp7wl9gUNWm2iTo41DH1iXb/cFPQZRtt3fLdmucguBNmA==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\Jana2023\\CnaeProcess\\CnaeIgbeProcesses\\.local\\",
+  "projectFilePath": "D:\\Documents\\Jana2023\\RPA\\CnaeIgbeProcesses2.0\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Jana\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Jana\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
